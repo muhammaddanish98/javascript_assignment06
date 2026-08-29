@@ -1,5 +1,7 @@
 // Assignment 06
 
+                         // String methods
+
 // task 01
 // var firstName = prompt("Enter your first name:");
 // var lastName = prompt("Enter your last name:");
@@ -143,8 +145,57 @@
 // }
 // document.write("The word 'the' occurs " + count + " times.");
 
+                    //    Maths Methods
 
+// task 01
+// var num = prompt("Enter a number:");
+// num = Number(num);
+// document.write("Number: " + num + "<br>");
+// document.write("Round: " + Math.round(num) + "<br>");
+// document.write("Floor: " + Math.floor(num) + "<br>");
+// document.write("Ceil: " + Math.ceil(num) + "<br>");
 
+// task 02
+// var num = prompt("Enter a negative number:");
+// num = Number(num);
+// document.write("Number: " + num + "<br>");
+// document.write("Round: " + Math.round(num) + "<br>");
+// document.write("Floor: " + Math.floor(num) + "<br>");
+// document.write("Ceil: " + Math.ceil(num) + "<br>");
+
+// task 03
+// var num = prompt("Enter a number:");
+// num = Number(num);
+// var absValue = Math.abs(num);
+// document.write("Absolute value: " + absValue);
+
+// task 04
+// var dice = Math.floor(Math.random() * 6) + 1;
+// document.write("Dice value: " + dice);
+
+// task 05
+// var coin = Math.floor(Math.random() * 2);
+// var result = coin === 0 ? "Heads" : "Tails";
+// document.write("Coin toss result: " + result);
+
+// task 06
+// var num = Math.floor(Math.random() * 100) + 1;
+// document.write("Random number: " + num);
+
+// task 07
+// var input = prompt("Enter your weight:");
+// var weight = parseFloat(input);
+// document.write("Your weight is: " + weight);
+
+// task 08
+// var secretNumber = Math.floor(Math.random() * 10) + 1;
+// var guess = prompt("Guess a number between 1 and 10:");
+// guess = Number(guess);
+// if (guess === secretNumber) {
+//   document.write("Congratulations! You guessed the correct number: " + secretNumber);
+// } else {
+//   document.write("Wrong guess! The secret number was: " + secretNumber);
+// }
 
 
 
